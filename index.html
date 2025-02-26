@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu" id="welcomeScreen">
+        <h1>Flappy Bird</h1>
+        <button class="start-btn" onclick="startGame()">Start</button>
+        <button class="quit-btn" onclick="quitGame()">Quit</button>
+    </div>
+
+    <div class="game-over" id="gameOverScreen">
+        <h1>Game Over</h1>
+        <p id="finalScore"></p>
+        <button class="start-btn" onclick="restartGame()">Restart</button>
+        <button class="quit-btn" onclick="quitGame()">Quit</button>
+    </div>
+
+    <canvas id="gameCanvas" width="700" height="600"></canvas>
+    
+    <audio id="jumpSound" src="C:\Users\Admin\Desktop\games\flappy bird\jump-sound.mp3"></audio>
+    <audio id="gameOverSound" src="C:\Users\Admin\Desktop\games\flappy bird\game over.mp3"></audio>
+    <audio id="backgroundMusic" src="C:\Users\Admin\Desktop\games\flappy-game\baxkground.mp3"></audio>
+    
+    <script src="script.js">
+    
+    </script>
+</body>
+</html>
